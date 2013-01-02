@@ -5,7 +5,7 @@
     <title>redis</title>
     <version>2.4.6</version>
     <authors>Salvatore Sanfilippo,Dusan Majkic,Rui Lopes</authors>
-    <owners>Jeff French</owners>
+    <owners>jfrench</owners>
     <summary>Run redis as a Windows Service</summary>
     <description>Redis is an open source, advanced key-value store. It is often referred to as a data structure server since keys can contain strings, hashes, lists, sets and sorted sets.
 
@@ -16,14 +16,9 @@
     <copyright>Copyright (c) 2006-2012, Salvatore Sanfilippo</copyright>
     <licenseUrl>http://redis.io/topics/license</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <!--<iconUrl>https://github.com/__CHOCO_PKG_OWNER_REPO__/raw/master/redis/redis.gif</iconUrl>-->
-    <!--<dependencies>
-      <dependency id="" version="" />
-    </dependencies>-->
-    <releaseNotes></releaseNotes>
+    <iconUrl>https://raw.github.com/jeff-french/redis-chocolatey/master/redis.jpg</iconUrl>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
-    <!--<file src="content\**" target="content" />-->
   </files>
 </package>
