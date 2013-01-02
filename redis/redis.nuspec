@@ -3,13 +3,19 @@
   <metadata>
     <id>redis</id>
     <title>redis</title>
-    <version>2.4.6</version>
+    <version>2.4.6.1</version>
     <authors>Salvatore Sanfilippo,Dusan Majkic,Rui Lopes</authors>
     <owners>jfrench</owners>
     <summary>Run redis as a Windows Service</summary>
     <description>Redis is an open source, advanced key-value store. It is often referred to as a data structure server since keys can contain strings, hashes, lists, sets and sorted sets.
 
-      This package will install Redis as a Windows Service.
+      This package will install Redis as a Windows Service running at http:localhost:6379.
+
+      This is a packaging of work by:
+      
+      Salvatore Sanfilippo (@antirez) who wrote Redis: https://github.com/antirez/redis
+      Dusan Majkic (@dmajkic) who ported Redis to Windows: https://github.com/dmajkic/redis
+      Rui Lopes (@ruiglopes) who added the Windows installer: https://github.com/rgl/redis
     </description>
     <projectUrl>http://redis.io</projectUrl>
     <tags>redis nosql cache</tags>
