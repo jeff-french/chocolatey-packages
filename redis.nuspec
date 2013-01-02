@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>redis</id>
+    <title>redis</title>
+    <version>2.4.6</version>
+    <authors>Salvatore Sanfilippo,Dusan Majkic,Rui Lopes</authors>
+    <owners>Jeff French</owners>
+    <summary>Run redis as a Windows Service</summary>
+    <description>Redis is an open source, advanced key-value store. It is often referred to as a data structure server since keys can contain strings, hashes, lists, sets and sorted sets.
+
+      This package will install Redis as a Windows Service.
+    </description>
+    <projectUrl>http://redis.io</projectUrl>
+    <tags>redis nosql cache</tags>
+    <copyright>Copyright (c) 2006-2012, Salvatore Sanfilippo</copyright>
+    <licenseUrl>http://redis.io/topics/license</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <!--<iconUrl>https://github.com/__CHOCO_PKG_OWNER_REPO__/raw/master/redis/redis.gif</iconUrl>-->
+    <!--<dependencies>
+      <dependency id="" version="" />
+    </dependencies>-->
+    <releaseNotes></releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+    <!--<file src="content\**" target="content" />-->
+  </files>
+</package>
