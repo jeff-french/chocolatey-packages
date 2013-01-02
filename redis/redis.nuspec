@@ -16,7 +16,7 @@
     <copyright>Copyright (c) 2006-2012, Salvatore Sanfilippo</copyright>
     <licenseUrl>http://redis.io/topics/license</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <iconUrl>https://raw.github.com/jeff-french/redis-chocolatey/master/redis.jpg</iconUrl>
+    <iconUrl>https://raw.github.com/jeff-french/chocolatey-packages/master/redis/redis.jpg</iconUrl>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
